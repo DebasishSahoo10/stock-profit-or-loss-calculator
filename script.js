@@ -23,12 +23,14 @@ function calculateFunction() {
         var profit = (currentInvestmentAmount - initialInvestmentAmount)
         var profitPercentage = ((profit/initialInvestmentAmount)*100)
         output.innerText =  "your profit is " + profit + " and your profit percentage is " + profitPercentage+"%";
+        output.style.color = "green";
     }
 
     if (initialInvestmentAmount > currentInvestmentAmount) {
         var loss = (initialInvestmentAmount - currentInvestmentAmount)
         var lossPercentage = ((loss/initialInvestmentAmount)*100)
         output.innerText = "your loss is " + loss + " and your loss percentage is " + lossPercentage+"%";
+        output.style.color = "red";
     }
 
     if (initialInvestmentAmount === currentInvestmentAmount) {
