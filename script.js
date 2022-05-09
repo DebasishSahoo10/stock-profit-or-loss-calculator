@@ -30,6 +30,10 @@ function calculateFunction() {
         var lossPercentage = ((loss/initialInvestmentAmount)*100)
         output.innerText = "your loss is " + loss + " and your loss percentage is " + lossPercentage+"%";
     }
+
+    if (initialInvestmentAmount === currentInvestmentAmount) {
+        output.innerText = "You have made neither loss nor profit. You are at a break-even point now."
+    }
 }
 
 
