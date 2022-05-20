@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     text-align: center;
-    margin: 5rem auto;
+    margin: 2rem auto;
     width: 85%;
 }
 
@@ -41,17 +41,21 @@ input {
 
 #output-area {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
 #left-section {
-    margin-top: 5rem;
     width: 50%;
     float: left;
 }
 
+#hero-img {
+    max-width: 450px;
+}
+
 #right-section {
-    margin-top: 4rem;
+    margin-top: 8rem;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -81,6 +85,10 @@ input {
     input {
         width: 80%;
         height: 5vh;
+    }
+
+    #hero-img {
+        max-width: 300px;
     }
 
   }
