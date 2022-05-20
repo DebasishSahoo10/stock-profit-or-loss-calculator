@@ -2,8 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
     text-align: center;
     margin: auto;
     width: 70%;
@@ -33,5 +32,44 @@ input {
     margin-top: 1rem;
     font-weight: bold;
 }
+
+#left-section {
+    margin-top: 5rem;
+    width: 50%;
+    float: left;
+}
+
+#right-section {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+}
+
+#lower-section {
+    display: block;
+    padding: 1rem;
+    position: fixed;
+    bottom: 10rem;
+    left: 49vw;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #left-section {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    #right-section {
+        width: 100%;
+        margin-top: 1rem;
+    }
+  }
 
 
