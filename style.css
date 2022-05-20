@@ -4,8 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     text-align: center;
-    margin: auto;
-    width: 70%;
+    margin: 5rem auto;
+    width: 85%;
 }
 
 button {
@@ -14,18 +14,29 @@ button {
     margin: auto;
     margin-top: 1rem;
     background: transparent;
-    border: 1px black dashed;
+    border: 2px black solid;
     border-radius: 0.5rem;
     font-size: larger;
 }
 
 input {
-    width: 50%;
+    width: 40%;
     margin: auto;
     margin-bottom: 1rem;
-    height: 5vh;
-    border: 1px black solid;
+    height: 7vh;
+    border: 2px black solid;
     border-radius: 0.5rem;
+    text-align: center;
+    font-size: medium;
+}
+
+.output-button {
+    font-size: xx-large;
+    padding-inline: 1rem;
+    margin-inline: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
 }
 
 #output-area {
@@ -47,13 +58,8 @@ input {
     float: right;
 }
 
-#lower-section {
-    display: block;
-    padding: 1rem;
-    position: fixed;
-    bottom: 10rem;
-    left: 49vw;
-}
+
+
 
 @media only screen and (max-width: 900px) {
     body {
@@ -70,6 +76,7 @@ input {
         width: 100%;
         margin-top: 1rem;
     }
+
   }
 
 
