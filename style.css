@@ -78,6 +78,11 @@ input {
         margin-top: 1rem;
     }
 
+    input {
+        width: 80%;
+        height: 5vh;
+    }
+
   }
 
 
