@@ -42,6 +42,12 @@ function calculateFunction() {
         lossOutput.style.backgroundColor = "black";
         profitOutput.style.backgroundColor = "black";
     }
+
+    if (allValues.initialPrice == "" | allValues.currentPrice == "" | allValues.quantityOfStocks == "" ) {
+        output.innerText = "Please input in all the fields";
+        lossOutput.style.backgroundColor = "black";
+        profitOutput.style.backgroundColor = "black";
+    }
 }
 
 
