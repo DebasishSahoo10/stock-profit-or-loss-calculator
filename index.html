@@ -10,28 +10,26 @@
 <body>
     <div id="left-section">
         <h1>Stock Profit & Loss Calculator</h1>
-        <p>Between all this up and down of capital markets, are you wondering if your particular stock purchase is in profit or loss ? Be sure with this app. Put the Initial price, Quanity bought, Current price. After calculating it for you, the app will lit the profit or loss button accordingly.</p>
+        <p>Between all this up and down of capital markets, are you wondering if your particular stock purchase is in profit or loss ? Be sure with this app. Put the Initial price, Quantity bought, Current price. After calculating it for you, the app will lit the profit or loss button accordingly.</p>
+        <button id="profit-output" class="output-button">Profit</button>
+        <button id="loss-output" class="output-button">Loss</button>
     </div>
 
     <div id="right-section">
-        <label for="initial-price-input">Initial Price</label>
+        <label for="initial-price-input">Initial Price:</label>
         <input id="initial-price-input" type="number">
 
-        <label for="quantity-input">Quantity of Stocks</label>
+        <label for="quantity-input">Quantity of Stocks:</label>
          <input id="quantity-input" type="number">
 
-        <label for="current-price-input">Current Price</label>
+        <label for="current-price-input">Current Price:</label>
         <input id="current-price-input" type="number">
     
         <button id="check-button">Calculate</button>
         <div id="output-area"></div>
     </div>
 
-    <div id="lower-section">
-        <p id="profit-output">Profit</p>
-        <p>or</p>
-        <p id="loss-output">Loss</p>
-    </div>
+   
 
 </body>
 <script src="/script.js" type="text/javascript"></script>
